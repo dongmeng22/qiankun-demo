@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "set PORT=9003 && react-app-rewired start",
+    "dev": "react-app-rewired set PORT=9003 && react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

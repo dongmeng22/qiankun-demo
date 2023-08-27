@@ -1,0 +1,27 @@
+.DS_Store
+.temp
+.vscode
+cache
+.eslintcache
+
+node_modules/
+base/node_modules/
+vue3/node_modules/
+qiankun-react/node_modules/
+dist/
+base/dist/
+vue3/dist/
+qiankun-react/dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
